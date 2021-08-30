@@ -101,6 +101,7 @@ body {
 .hr hr {
     position: relative;
     top: 125px;
+    color:hsl(0, 0%, 59%);
 }
 
 .h3 {
@@ -123,7 +124,7 @@ body {
 }
 
 @media(max-width: 768px) {
-    
+
     .background img {
         position: absolute;
         top: -500px;
