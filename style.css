@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    background: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    position: relative;
+    top: 160px;
+}
+
+.col {
+    flex-basis: 28%;
+}
+
+.background {
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background img {
+    position: absolute;
+    top: -500px;
+    transform: rotate(18deg);
+    right: 60%;
+}
+
+.background-below {
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background-below img {
+    position: absolute;
+    left: 60%;
+    top: 500px;   
+}
+
+.border-box {
+    border-radius: 16px;
+    overflow: hidden;
+    width: 400px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img img {
+    width: 100%;
+}
+
+.profile {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+}
+
+.h1{
+    position: relative;
+    top: 75px;
+    color: hsl(229, 23%, 23%);
+    font-size: 20px; 
+}
+
+.h1 span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.h2 {
+    position: relative;
+    top: 90px;
+    font-size: 16px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.hr hr {
+    position: relative;
+    top: 125px;
+}
+
+.h3 {
+    font-size: 18px;
+    color:hsl(229, 23%, 23%);
+}
+
+.h4 {
+    position: relative;
+    top: 5px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.attribution {
+    position: relative;
+    top: 880px;
+}
+
+@media(max-width: 768px) {
+    
+    .background img {
+        position: absolute;
+        top: -500px;
+        transform: rotate(18deg);
+        right: 45%;
+    }
+
+    .background-below img {
+        position: absolute;
+        left: 40%;
+        top: 450px;  
+    }
+
+    .border-box {
+        width: 325px; 
+    }
+}
